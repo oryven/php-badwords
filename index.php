@@ -11,6 +11,8 @@
 <?php $title = "Hello word"; ?>
 
 <h1><?php echo $title; ?></h1>
+
+<div class="number">Numero dei caratteri utilizzati: <?php echo strlen($title)?></div>
     
 </body>
 </html>
